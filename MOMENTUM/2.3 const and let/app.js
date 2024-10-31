@@ -1,19 +1,15 @@
-console.log(345546);
-console.log("sdfsfg");
-
-// 변수의 중요성
-console.log(5 + 2);
-console.log(5 * 2);
-console.log(5 / 2);
-console.log(5 - 2);
-
 // 변수를 사용해보자
 const a = 5;
 const b = 2;
-const myName = "dj";
+let myName = "dj";
+console.log("hello " + myName);
 
-console.log(a + b);
-console.log(a * b);
-console.log(a / b);
-console.log(a - b);
-console.log("hello" + myName);
+myName = "sd";
+console.log("your name is " + myName);
+
+// const 변경 Error 발생
+const myName2 = "dj";
+console.log("hello " + myName2);
+
+myName2 = "sd";
+console.log("your name is " + myName2);
